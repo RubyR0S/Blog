@@ -14,7 +14,7 @@
 
       <% if user_signed_in? %>
 
-      Hello, <%= current_user.email %> | <%= button_to 'Exit', destroy_user_session_path, method: :delete %>
+      Hello, <%= current_user.username %>  | <%= button_to 'Exit', destroy_user_session_path, method: :delete %>
 
       <% else %>
 
