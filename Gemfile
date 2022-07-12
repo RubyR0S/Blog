@@ -71,6 +71,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'rexml'
+  gem 'factory_bot_rails'
 end
 
 
